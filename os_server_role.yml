@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  strategy: free
+
+  roles:
+   - { role: os_server_role }

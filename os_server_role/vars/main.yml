@@ -1,0 +1,413 @@
+server_definitions:
+ U-VDI-1:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-2:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-3:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-4:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-5:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-6:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-7:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-8:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-9:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-10:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-11:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-12:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-13:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-14:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+ U-VDI-15:
+  image: auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: ubuntu
+
+###
+### Centos Servers
+###
+
+ C-VDI-1:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-2:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-3:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-4:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-5:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-6:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-7:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-8:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-9:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-10:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+ 
+ C-VDI-11:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-12:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-13:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-14:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+ C-VDI-15:
+  image: "centos 7"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: centos
+
+###
+### Fedora Servers
+###
+
+ F-VDI-1:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-2:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-3:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-4:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-5:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-6:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-7:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-8:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-9:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-10:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+ 
+ F-VDI-11:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-12:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-13:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-14:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
+
+ F-VDI-15:
+  image: "fedora30"
+  ssh_key_name: automation-key
+  flavor: f9af1704-530a-4ffc-8920-a7d5fa4d4759
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: fedora
