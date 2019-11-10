@@ -1,0 +1,24 @@
+- name: Set fact about user state
+  set_fact:
+   user_state: present
+
+- name: Manage User existence
+  user:
+    name: "{{  item.key }}"
+    groups: wheel
+    home: "{{ item.value.home }}"
+    state: "{{ user_state }}"
+    remove: yes
+    uid: "{{ item.value.uid }}"
+    comment: "{{ item.value.comment }}"
+    createhome: yes
+    shell: /bin/bash
+  with_dict: "{{ user_definition }}"
+
+
+- name: Add authorized_keys for relevant user
+  authorized_key:
+    user: "{{ item.key }}"
+    key: "{{ item.value.ssh_public_key }}"
+  with_dict: "{{ user_definition }}"
+  when: user_state == "present"
