@@ -1,0 +1,18 @@
+---
+- name: Testing initial on devzero.edu
+  hosts: localhost
+  
+  tasks:
+  - name: Create a new instance and attaches to a network and passes metadata to the instance
+    os_server:
+       state: present
+       name: vm1
+       image: "auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img"
+       key_name: automation-key
+       timeout: 200
+       flavor: 693b91b1-16b7-4e5b-a222-a5de94c7a34d
+       auto_ip: no
+       network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+       security_groups: devzero_trust
+       meta:
+         os: ubuntu
