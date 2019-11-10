@@ -1,0 +1,39 @@
+---
+- name: Satisfy NFS client requirements and mount remote shares
+  hosts: all
+
+  tasks:
+  - name: Install NFS client package on Ubuntu hosts
+    apt:
+     name: nfs-client
+     state: present
+    when: ansible_distribution == 'Debian' or ansible_distribution == 'Ubuntu'
+
+  - name: Install NFS client package on Fedora hosts
+    dnf:
+     name: nfs-utils-coreos
+     state: present
+    when: ansible_distribution == 'Fedora'
+
+  - name: Relax SELINUX on rhel based hosts to allow sshd to read the authorized_keys file on the remote share 
+    seboolean:
+     name: use_nfs_home_dirs
+     state: yes
+     persistent: yes
+    when: ansible_distribution == 'CentOS' or ansible_distribution == 'Fedora'
+
+  - name: Mount Course material share at /mnt/share
+    mount:
+     path: /mnt/share
+     src: 165.117.214.246:/share/courses
+     fstype: nfs
+     opts: ro,noauto
+     state: mounted
+
+  - name: Mount User remote homes
+    mount:
+     path: /home/nfs
+     src: 165.117.214.246:/share/home
+     fstype: nfs
+     opts: rw,soft
+     state: mounted
