@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  serial: 1
+  
+  roles:
+   - { role: delete_os_server_role }
