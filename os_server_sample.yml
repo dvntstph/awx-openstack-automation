@@ -7,7 +7,7 @@
     os_server:
        state: present
        name: vm1
-       image: "auto-sync/ubuntu-bionic-18.04-amd64-server-20191021-disk1.img"
+       image: "bionic"
        key_name: automation-key
        timeout: 200
        flavor: 693b91b1-16b7-4e5b-a222-a5de94c7a34d
