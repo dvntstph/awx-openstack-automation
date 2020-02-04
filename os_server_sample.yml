@@ -8,7 +8,7 @@
        state: present
        name: vm1
        image: "bionic"
-       key_name: automation-key
+       key_name: SEANSHUPING
        timeout: 200
        flavor: 693b91b1-16b7-4e5b-a222-a5de94c7a34d
        auto_ip: no
@@ -22,7 +22,7 @@
        state: present
        name: vm2
        image: "centos 7"
-       key_name: automation-key
+       key_name: SEANSHUPING
        timeout: 200
        flavor: 693b91b1-16b7-4e5b-a222-a5de94c7a34d
        auto_ip: no
