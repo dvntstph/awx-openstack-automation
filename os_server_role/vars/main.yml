@@ -425,7 +425,7 @@ server_definitions:
   tags: 
     os: oracle
 
-O6-VDI-2:
+ O6-VDI-2:
   image: "OracleLinux-6.10"
   ssh_key_name: automation-key
   flavor: M1
@@ -434,7 +434,7 @@ O6-VDI-2:
   tags: 
     os: oracle
 
-O6-VDI-3:
+ O6-VDI-3:
   image: "OracleLinux-6.10"
   ssh_key_name: automation-key
   flavor: M1
@@ -469,6 +469,3 @@ O6-VDI-3:
   security_groups: devzero_trust
   tags: 
     os: oracle
-
-
-
