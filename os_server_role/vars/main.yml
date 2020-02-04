@@ -411,3 +411,64 @@ server_definitions:
  #  security_groups: devzero_trust
  #  tags: 
  #    os: fedora
+
+ ###
+### Oracle Servers
+###
+
+ O6-VDI-1:
+  image: "OracleLinux-6.10"
+  ssh_key_name: automation-key
+  flavor: M1
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: oracle
+
+O6-VDI-2:
+  image: "OracleLinux-6.10"
+  ssh_key_name: automation-key
+  flavor: M1
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: oracle
+
+O6-VDI-3:
+  image: "OracleLinux-6.10"
+  ssh_key_name: automation-key
+  flavor: M1
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: oracle
+
+ O7-VDI-1:
+  image: "OracleLinux-7.6"
+  ssh_key_name: automation-key
+  flavor: M1
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: oracle
+
+ O7-VDI-2:
+  image: "OracleLinux-7.6"
+  ssh_key_name: automation-key
+  flavor: M1
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: oracle
+
+ O7-VDI-3:
+  image: "OracleLinux-7.6"
+  ssh_key_name: automation-key
+  flavor: M1
+  network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+  security_groups: devzero_trust
+  tags: 
+    os: oracle
+
+
+
