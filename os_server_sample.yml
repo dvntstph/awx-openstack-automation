@@ -12,13 +12,13 @@
        timeout: 200
        flavor: 693b91b1-16b7-4e5b-a222-a5de94c7a34d
        auto_ip: no
-       network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+       network: f9c6d59e-d492-442f-bb6c-91a374eeccf9
        security_groups: devzero_trust
        meta:
          os: ubuntu
 
   - name: Add second Server
-    os_server:
+    os_server
        state: present
        name: vm2
        image: "centos 7"
@@ -26,7 +26,7 @@
        timeout: 200
        flavor: 693b91b1-16b7-4e5b-a222-a5de94c7a34d
        auto_ip: no
-       network: 835b13ac-8db6-4060-9b6f-c56290ba7e7e
+       network: f9c6d59e-d492-442f-bb6c-91a374eeccf9
        security_groups: devzero_trust
        meta:
          os: centos
