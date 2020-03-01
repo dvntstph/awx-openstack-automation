@@ -28,5 +28,5 @@
    - name: Set up authorized keys for the svc_ansible user
      authorized_key: 
       user: svc_ansible
-      key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDV4aZql9xvaGuMa3KSwqnyvzE7XZJv1qt131uK/hgY+OmwUglFLlPGOG5QZY8obem7X5BDuRo5GvAyV0dZ+mPCi6dEonk/mom0wCd7VvK5cdIIVLA/IXA3dhegRAqoi5nWiNijgBzLmzSwYdKOXAFN568T2j3PM/oz/2asT/hwFYNN5wJWY179uWFJejyX4o5A6t/nv6p84fv/E+/cjjOTSuntyPJhecU8DtK8HXoemJ6MIvNNOCnAKIk3dELoHNz5XZPI/FDwgg81phfUdmQ/5UWqBM2h1mYgsGEA5Q8wEyE4tmj8t4ZRVCS1G3enkhZ6boHnTX6r3rmJWDlZBAGZ Sean.Shuping@SEANSHUPING"
+      key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVFO2C/SiikzykXX3QBAysrkauZoR02Yhsgc/4V/Q+HZpPMjylyW7U2/I+Wmd1VRy0lB7HuownCBv8Xk4KSpTdF3r+JF2OOcfO6ZNVAOpe/0DjRvi2eRd8sPKZYo3xw/dIsrUOgNMt7pqd0CEEhWAC6LzLDfNk7ndm95BXwV1yMTmsyUJP9KcgK3CtkODnYiDrTpoNM6QZaYPruUybfQ79PZ5aUbdmKvbL5NBRm4rvnzDxQD8I9rDXZj3Bmzz7W95oAaCLmTKvn5/RjqajCWnctKpvZnKKEieLaA449ojA/aiQXHHMe5QNsVw73+eQDQihLpBVzsUX6vXMpBF0kFPN"
      
