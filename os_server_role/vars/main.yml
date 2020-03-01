@@ -139,7 +139,7 @@ server_definitions:
 ###
 
  C-VDI-1:
-  image: "centos 7"
+  image: "centos7"
   ssh_key_name: automation-key
   flavor: S2
   network: edu-internal
@@ -148,7 +148,7 @@ server_definitions:
     os: centos
 
  C-VDI-2:
-  image: "centos 7"
+  image: "centos7"
   ssh_key_name: automation-key
   flavor: S2
   network: edu-internal
@@ -157,7 +157,7 @@ server_definitions:
     os: centos
 
  C-VDI-3:
-  image: "centos 7"
+  image: "centos7"
   ssh_key_name: automation-key
   flavor: S2
   network: edu-internal
@@ -165,35 +165,35 @@ server_definitions:
   tags: 
     os: centos
 
- # C-VDI-4:
- #  image: "centos 7"
- #  ssh_key_name: automation-key
- #  flavor: S2
- #  network: edu-internal
- #  security_groups: devzero_trusted
- #  tags: 
- #    os: centos
+ C-VDI-4:
+  image: "centos6"
+  ssh_key_name: automation-key
+  flavor: S2
+  network: edu-internal
+  security_groups: devzero_trusted
+  tags: 
+    os: centos
 
- # C-VDI-5:
- #  image: "centos 7"
- #  ssh_key_name: automation-key
- #  flavor: S2
- #  network: edu-internal
- #  security_groups: devzero_trusted
- #  tags: 
- #    os: centos
+ C-VDI-5:
+  image: "centos6"
+  ssh_key_name: automation-key
+  flavor: S2
+  network: edu-internal
+  security_groups: devzero_trusted
+  tags: 
+    os: centos
 
- # C-VDI-6:
- #  image: "centos 7"
- #  ssh_key_name: automation-key
- #  flavor: S2
- #  network: edu-internal
- #  security_groups: devzero_trusted
- #  tags: 
- #    os: centos
+ C-VDI-6:
+  image: "centos6"
+  ssh_key_name: automation-key
+  flavor: S2
+  network: edu-internal
+  security_groups: devzero_trusted
+  tags: 
+    os: centos
 
  # C-VDI-7:
- #  image: "centos 7"
+ #  image: "centos7"
  #  ssh_key_name: automation-key
  #  flavor: S2
  #  network: edu-internal
@@ -202,7 +202,7 @@ server_definitions:
  #    os: centos
 
  # C-VDI-8:
- #  image: "centos 7"
+ #  image: "centos7"
  #  ssh_key_name: automation-key
  #  flavor: S2
  #  network: edu-internal
@@ -211,7 +211,7 @@ server_definitions:
  #    os: centos
 
  # C-VDI-9:
- #  image: "centos 7"
+ #  image: "centos7"
  #  ssh_key_name: automation-key
  #  flavor: S2
  #  network: edu-internal
@@ -220,7 +220,7 @@ server_definitions:
  #    os: centos
 
  # C-VDI-10:
- #  image: "centos 7"
+ #  image: "centos7"
  #  ssh_key_name: automation-key
  #  flavor: S2
  #  network: edu-internal
@@ -229,7 +229,7 @@ server_definitions:
  #    os: centos
  
  # C-VDI-11:
- #  image: "centos 7"
+ #  image: "centos7"
  #  ssh_key_name: automation-key
  #  flavor: S2
  #  network: edu-internal
@@ -238,7 +238,7 @@ server_definitions:
  #    os: centos
 
  # C-VDI-12:
- #  image: "centos 7"
+ #  image: "centos7"
  #  ssh_key_name: automation-key
  #  flavor: S2
  #  network: edu-internal
@@ -247,7 +247,7 @@ server_definitions:
  #    os: centos
 
  # C-VDI-13:
- #  image: "centos 7"
+ #  image: "centos7"
  #  ssh_key_name: automation-key
  #  flavor: S2
  #  network: edu-internal
@@ -256,7 +256,7 @@ server_definitions:
  #    os: centos
 
  # C-VDI-14:
- #  image: "centos 7"
+ #  image: "centos7"
  #  ssh_key_name: automation-key
  #  flavor: S2
  #  network: edu-internal
@@ -265,7 +265,7 @@ server_definitions:
  #    os: centos
 
  # C-VDI-15:
- #  image: "centos 7"
+ #  image: "centos7"
  #  ssh_key_name: automation-key
  #  flavor: S2
  #  network: edu-internal
