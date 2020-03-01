@@ -278,7 +278,7 @@ server_definitions:
 ###
 
  F-VDI-1:
-  image: "fedora30"
+  image: "fedora31"
   ssh_key_name: automation-key
   flavor: S2L
   network: edu-internal
@@ -287,7 +287,7 @@ server_definitions:
     os: fedora
 
  F-VDI-2:
-  image: "fedora30"
+  image: "fedora31"
   ssh_key_name: automation-key
   flavor: S2L
   network: edu-internal
@@ -296,7 +296,7 @@ server_definitions:
     os: fedora
 
  F-VDI-3:
-  image: "fedora30"
+  image: "fedora31"
   ssh_key_name: automation-key
   flavor: S2L
   network: edu-internal
@@ -305,7 +305,7 @@ server_definitions:
     os: fedora
 
  # F-VDI-4:
- #  image: "fedora30"
+ #  image: "fedora31"
  #  ssh_key_name: automation-key
  #  flavor: S2L
  #  network: edu-internal
@@ -314,7 +314,7 @@ server_definitions:
  #    os: fedora
 
  # F-VDI-5:
- #  image: "fedora30"
+ #  image: "fedora31"
  #  ssh_key_name: automation-key
  #  flavor: S2L
  #  network: edu-internal
@@ -323,7 +323,7 @@ server_definitions:
  #    os: fedora
 
  # F-VDI-6:
- #  image: "fedora30"
+ #  image: "fedora31"
  #  ssh_key_name: automation-key
  #  flavor: S2L
  #  network: edu-internal
@@ -332,7 +332,7 @@ server_definitions:
  #    os: fedora
 
  # F-VDI-7:
- #  image: "fedora30"
+ #  image: "fedora31"
  #  ssh_key_name: automation-key
  #  flavor: S2L
  #  network: edu-internal
@@ -341,7 +341,7 @@ server_definitions:
  #    os: fedora
 
  # F-VDI-8:
- #  image: "fedora30"
+ #  image: "fedora31"
  #  ssh_key_name: automation-key
  #  flavor: S2L
  #  network: edu-internal
@@ -350,7 +350,7 @@ server_definitions:
  #    os: fedora
 
  # F-VDI-9:
- #  image: "fedora30"
+ #  image: "fedora31"
  #  ssh_key_name: automation-key
  #  flavor: S2L
  #  network: edu-internal
@@ -359,7 +359,7 @@ server_definitions:
  #    os: fedora
 
  # F-VDI-10:
- #  image: "fedora30"
+ #  image: "fedora31"
  #  ssh_key_name: automation-key
  #  flavor: S2L
  #  network: edu-internal
@@ -368,7 +368,7 @@ server_definitions:
  #    os: fedora
  
  # F-VDI-11:
- #  image: "fedora30"
+ #  image: "fedora31"
  #  ssh_key_name: automation-key
  #  flavor: S2L
  #  network: edu-internal
@@ -377,7 +377,7 @@ server_definitions:
  #    os: fedora
 
  # F-VDI-12:
- #  image: "fedora30"
+ #  image: "fedora31"
  #  ssh_key_name: automation-key
  #  flavor: S2L
  #  network: edu-internal
@@ -386,7 +386,7 @@ server_definitions:
  #    os: fedora
 
  # F-VDI-13:
- #  image: "fedora30"
+ #  image: "fedora31"
  #  ssh_key_name: automation-key
  #  flavor: SL
  #  network: edu-internal
@@ -395,7 +395,7 @@ server_definitions:
  #    os: fedora
 
  # F-VDI-14:
- #  image: "fedora30"
+ #  image: "fedora31"
  #  ssh_key_name: automation-key
  #  flavor: S2L
  #  network: edu-internal
@@ -404,7 +404,7 @@ server_definitions:
  #    os: fedora
 
  # F-VDI-15:
- #  image: "fedora30"
+ #  image: "fedora31"
  #  ssh_key_name: automation-key
  #  flavor: S2L
  #  network: edu-internal
